@@ -4,7 +4,7 @@
   "travel_dates": "December 10-14",
   "duration": 5,
   "travelers": 2,
-  "budget": 1400.0,
+  "budget": 2000.0,
   "interests": [
     "food",
     "shopping",
@@ -12,83 +12,7 @@
     "sightseeing"
   ],
   "hotel_preference": "4-star",
-  "destination_research": {
-    "summary": "December is an excellent time to visit Dubai for Pakistani travelers interested in food, shopping, beaches and sightseeing. Expect warm, pleasant weather and lively crowds. Stay in Dubai Marina/JBR, Downtown, or Palm Jumeirah for easy access to beaches, malls and iconic landmarks. Daily expenses (excluding lodging and flights) average around $110 per person, covering meals, transport and entry fees. The city’s public‑transport network—metro, bus, tram, abra and monorail—makes getting around affordable, while taxis and rideshare apps offer convenience. Visa requirements are straightforward for Pakistani passport holders but must be met precisely.",
-    "popular_areas": [
-      "Dubai Marina & JBR",
-      "Downtown Dubai",
-      "Palm Jumeirah",
-      "Al Barsha / Al Safa",
-      "Deira & Bur Dubai"
-    ],
-    "major_attractions": [
-      "Burj Khalifa & Dubai Mall",
-      "Dubai Fountain",
-      "Palm Jumeirah & Atlantis Aquaventure",
-      "Desert Safari (dune bashing, camel ride, BBQ)",
-      "Jumeirah Beach Residence (JBR) beach & promenade",
-      "Dubai Marina Walk",
-      "Dubai Creek & Al Fahidi Historical Neighborhood",
-      "Mall of the Emirates (including Ski Dubai)",
-      "Global Village (seasonal) and Dubai Frame"
-    ],
-    "local_transport": [
-      "Dubai Metro (Red & Green lines)",
-      "Dubai Bus network",
-      "Tram (Dubai Marina)",
-      "Water taxi (Abra) across Dubai Creek",
-      "Palm Monorail",
-      "Taxis / Uber / Careem",
-      "Car‑share & rental (Ekar, uDrive)"
-    ],
-    "best_time_to_visit": "December (part of the November‑March window) offers pleasant temperatures (mid‑20s °C), low humidity and sunny days – ideal for beach time, outdoor sightseeing and desert activities. It is also peak tourist season, so attractions and beaches will be busy.",
-    "travel_considerations": [
-      "Carry both cash (AED) and a credit/debit card; many places accept cards but small vendors may prefer cash.",
-      "Dress modestly in public areas (shoulders and knees covered) despite the liberal vibe, especially in traditional neighborhoods.",
-      "December is peak season; book popular attractions (Burj Khalifa, desert safari) in advance.",
-      "Stay hydrated and use sunscreen even in cooler weather.",
-      "Check if any major events (e.g., Dubai Shopping Festival) coincide with your dates, as they can affect crowd levels and prices."
-    ],
-    "visa_and_entry_notes": "Pakistani passport holders need a UAE tourist e‑Visa. Required documents include a valid passport (minimum 6 months), a recent passport‑size photo, the Pakistani CNIC (or equivalent ID), proof of onward travel, hotel booking, medical insurance valid in the UAE, and proof of sufficient funds (at least 3000 AED in cash or a credit card). The e‑Visa is typically valid for up to 60 days. Processing is done online through the GDRFA portal or authorized agencies. Travelers should verify the latest requirements and fees on the official UAE immigration website or through the UAE embassy before applying.",
-    "estimated_daily_spend_usd_per_person": 110.0,
-    "cost_notes": "Dubai is a high‑cost destination. Food ranges from $10‑$20 for a meal at a mid‑range restaurant to $30‑$60 at upscale venues. Public transport (metro, bus, water‑taxi) is cheap (≈$1‑$3 per ride), while taxis/Uber start around $3 plus $0.50 per km. Major attractions (Burj Khalifa ‘At The Top’, Atlantis Aquaventure, desert safari) cost $40‑$100 per person. These figures exclude accommodation and international flights.",
-    "recommended_neighborhoods": [
-      {
-        "name": "Dubai Marina & JBR",
-        "best_for": "Beach, nightlife, waterfront dining",
-        "notes": "Hotel rooms with marina views, 10‑minute walk to JBR beach, Marina Mall, 7‑km Marina Walk and many restaurants (e.g., Pier 7). Well‑served by metro, tram and water‑taxis."
-      },
-      {
-        "name": "Downtown Dubai",
-        "best_for": "Iconic sights, luxury shopping, central location",
-        "notes": "Steps from Burj Khalifa, Dubai Mall, Dubai Fountain; excellent metro access; many dining options ranging from street food to fine dining."
-      },
-      {
-        "name": "Palm Jumeirah",
-        "best_for": "Resort‑style beach experience, water attractions",
-        "notes": "Home to Atlantis, Aquaventure waterpark, upscale beachfront resorts; reachable via Palm Monorail and taxis."
-      },
-      {
-        "name": "Al Barsha / Al Safa",
-        "best_for": "Budget‑friendly hotels, indoor shopping, ski experience",
-        "notes": "Close to Mall of the Emirates (Ski Dubai), good metro link, quieter evenings and more affordable accommodation."
-      }
-    ],
-    "sources": [
-      "https://dubaivisitorvisa.com/blog/dubai-visitor-visa-for-pakistani",
-      "https://gretastravels.com/where-to-stay-in-dubai",
-      "https://ibis.accor.com/en/ibis-magazine/hassle-free-stays/how-to-get-around-dubai.html",
-      "https://pakistanconsulatedubai.ae/pages/guidelines",
-      "https://travel-lush.com/best-areas-to-stay-in-dubai-for-tourists",
-      "https://travel.usnews.com/Dubai_United_Arab_Emirates/When_To_Visit",
-      "https://www.dubai-tickets.co/travel-guide/best-time-to-visit",
-      "https://www.emirates.com/us/english/discover-dubai/dubai-transportation",
-      "https://www.makemytrip.com/tripideas/dubai/best-time-to-visit",
-      "https://www.peninsulavisa.com/visa-requirements/pakistan-to-united-arab-emirates",
-      "https://www.stokedtotravel.com/guide-getting-around-dubai-using-public-transport",
-      "https://www.youtube.com/watch?v=zpdspnu9zQ0&vl=en-US"
-    ]
-  },
+  "destination_research": {},
   "flight_options": {
     "source": "hardcoded",
     "origin": "Pakistan",
@@ -100,495 +24,154 @@
     "note": "Fixed estimate for a round trip, not a live fare.",
     "adjustable_in_revision": false
   },
-  "hotel_options": [
-    {
-      "name": "Grand Excelsior Hotel Deira",
-      "area": "Al Barsha / Al Safa (near Deira)",
-      "star_rating": 4,
-      "guest_rating": "unknown",
-      "estimated_price_per_night_usd": 25.0,
-      "price_evidence": "snippet shows $25/night",
-      "distance_to_attractions": "Close to Dubai Mall (15 min) and Dubai Creek (20 min)",
-      "why_recommended": "Fits the $35/night budget, 4‑star rating, good transport links to major sights, and solid basic amenities.",
-      "total_stay_cost_usd": 100.0,
-      "within_nightly_cap": true
-    },
-    {
-      "name": "Crowne Plaza Dubai Marina",
-      "area": "Dubai Marina",
-      "star_rating": 4,
-      "guest_rating": "unknown",
-      "estimated_price_per_night_usd": 85.0,
-      "price_evidence": "no price in snippets",
-      "distance_to_attractions": "Steps from Marina Walk, 10 min to JBR beach",
-      "why_recommended": "Well‑located waterfront property with modern rooms; offers good value for a 4‑star stay even though it exceeds the target price.",
-      "total_stay_cost_usd": 340.0,
-      "within_nightly_cap": false
-    },
-    {
-      "name": "Ramada Hotel & Suites by Wyndham Dubai JBR",
-      "area": "Jumeirah Beach Residence (JBR)",
-      "star_rating": 4,
-      "guest_rating": "4.5",
-      "estimated_price_per_night_usd": 192.0,
-      "price_evidence": "snippet shows from $192/night",
-      "distance_to_attractions": "Directly on JBR beach, 5 min to The Walk, 15 min to Dubai Marina",
-      "why_recommended": "Highly rated 4‑star hotel with beachfront access; included for completeness despite being above budget.",
-      "total_stay_cost_usd": 768.0,
-      "within_nightly_cap": false
-    },
-    {
-      "name": "The Heritage Hotel, Autograph Collection",
-      "area": "Downtown Dubai",
-      "star_rating": 4,
-      "guest_rating": "unknown",
-      "estimated_price_per_night_usd": 210.0,
-      "price_evidence": "no price in snippets",
-      "distance_to_attractions": "Walking distance to Burj Khalifa and Dubai Mall (5 min)",
-      "why_recommended": "Prime downtown location near iconic sights; luxury feel for travelers willing to spend more.",
-      "total_stay_cost_usd": 840.0,
-      "within_nightly_cap": false
-    }
-  ],
-  "selected_hotel": {
-    "name": "Grand Excelsior Hotel Deira",
-    "area": "Al Barsha / Al Safa (near Deira)",
-    "star_rating": 4,
-    "guest_rating": "unknown",
-    "estimated_price_per_night_usd": 25.0,
-    "price_evidence": "snippet shows $25/night",
-    "distance_to_attractions": "Close to Dubai Mall (15 min) and Dubai Creek (20 min)",
-    "why_recommended": "Fits the $35/night budget, 4‑star rating, good transport links to major sights, and solid basic amenities.",
-    "total_stay_cost_usd": 100.0,
-    "within_nightly_cap": true,
-    "nights": 4,
-    "rooms": 1,
-    "nightly_cap_usd": 35.0,
-    "selected_by": "llm",
-    "selection_reason": "It is the only 4‑star option that meets the $35 per night budget while offering convenient access to major attractions.",
-    "price_basis": "estimate from web search snippets",
-    "sources": [
-      "https://www.booking.com/fourstars/city/ae/dubai.html",
-      "https://www.cntraveller.com/gallery/best-hotels-in-dubai",
-      "https://www.kayak.com/Dubai-Hotels.6080.hotel.ksp",
-      "https://www.kayak.com/Dubai-Hotels_Dubai-Marina.N209657.6080.hotel.ksp",
-      "https://www.momondo.com/hotels/dubai",
-      "https://www.skyscanner.net/hotels/united-arab-emirates/dubai-hotels/four-star/ci-27540839/sr-4",
-      "https://www.trip.com/hotels/star4/city/ae/dubai.html",
-      "https://www.tripadvisor.com/Hotels-g295424-zfc4-zfn7282432-Dubai_Emirate_of_Dubai-Hotels.html"
-    ]
-  },
-  "activities": [
-    {
-      "name": "Dubai Fountain & Burj Khalifa Lake Walk",
-      "location": "Downtown Dubai",
-      "category": "sightseeing",
-      "estimated_cost_per_person_usd": 0.0,
-      "price_evidence": "Free to view the fountain; no ticket required.",
-      "duration_hours": 2.0,
-      "best_time_to_visit": "Evening",
-      "why_relevant": "Iconic water show with views of Burj Khalifa; great photo opportunities and no cost.",
-      "total_cost_usd": 0.0,
-      "included": true,
-      "selection_note": "included"
-    },
-    {
-      "name": "Jumeirah Public Beach",
-      "location": "Jumeirah Beach Residence (JBR) area",
-      "category": "beaches",
-      "estimated_cost_per_person_usd": 0.0,
-      "price_evidence": "Free public beach; no entry fee.",
-      "duration_hours": 3.0,
-      "best_time_to_visit": "Morning",
-      "why_relevant": "Offers a genuine beach experience without fees, perfect for relaxation and seaside walks.",
-      "total_cost_usd": 0.0,
-      "included": true,
-      "selection_note": "included"
-    },
-    {
-      "name": "Dubai Frame",
-      "location": "Zabeel Park",
-      "category": "sightseeing",
-      "estimated_cost_per_person_usd": 13.0,
-      "price_evidence": "Dubai Frame tickets from AED 47.77 (~$13)",
-      "duration_hours": 1.5,
-      "best_time_to_visit": "Morning",
-      "why_relevant": "Provides panoramic views of old and new Dubai at an affordable price.",
-      "total_cost_usd": 26.0,
-      "included": true,
-      "selection_note": "included"
-    },
-    {
-      "name": "Global Village",
-      "location": "Sheikh Mohammed Bin Zayed Road",
-      "category": "shopping",
-      "estimated_cost_per_person_usd": 9.0,
-      "price_evidence": "Admission tickets from $9",
-      "duration_hours": 4.0,
-      "best_time_to_visit": "Evening",
-      "why_relevant": "Cultural pavilions and low‑cost shopping; great for evening strolls and souvenirs.",
-      "total_cost_usd": 18.0,
-      "included": true,
-      "selection_note": "included"
-    },
-    {
-      "name": "Dubai Creek & Al Fahidi Historical Neighborhood Walk",
-      "location": "Al Fahidi, Bur Dubai",
-      "category": "sightseeing",
-      "estimated_cost_per_person_usd": 0.0,
-      "price_evidence": "Free self‑guided walk; no ticket required.",
-      "duration_hours": 2.0,
-      "best_time_to_visit": "Morning",
-      "why_relevant": "Explores Dubai's heritage sites, souks, and historic architecture for free.",
-      "total_cost_usd": 0.0,
-      "included": true,
-      "selection_note": "included"
-    },
-    {
-      "name": "Desert Safari (budget option)",
-      "location": "Dubai Desert (pick‑up from hotel)",
-      "category": "sightseeing",
-      "estimated_cost_per_person_usd": 35.0,
-      "price_evidence": "Lower end of price range $35 per person for desert safari tours",
-      "duration_hours": 6.0,
-      "best_time_to_visit": "Late afternoon/evening",
-      "why_relevant": "Includes dune bashing, camel ride, and BBQ dinner for an authentic desert experience within a modest budget.",
-      "total_cost_usd": 70.0,
-      "included": false,
-      "selection_note": "over activities budget"
-    },
-    {
-      "name": "Al Ras Street Food & Spice Souk Exploration",
-      "location": "Deira, Al Ras",
-      "category": "food",
-      "estimated_cost_per_person_usd": 0.0,
-      "price_evidence": "Free entry to souk; food cost optional",
-      "duration_hours": 2.0,
-      "best_time_to_visit": "Late morning",
-      "why_relevant": "Offers affordable local snacks and spices, letting travelers sample authentic flavors without mandatory costs.",
-      "total_cost_usd": 0.0,
-      "included": true,
-      "selection_note": "included"
-    },
-    {
-      "name": "Mall of the Emirates Shopping (window)",
-      "location": "Al Barsha",
-      "category": "shopping",
-      "estimated_cost_per_person_usd": 0.0,
-      "price_evidence": "Free entry to mall; no ticket required",
-      "duration_hours": 3.0,
-      "best_time_to_visit": "Afternoon",
-      "why_relevant": "Indoor shopping and sightseeing (including view of Ski Dubai) at no entry cost, ideal for a relaxed shopping day.",
-      "total_cost_usd": 0.0,
-      "included": true,
-      "selection_note": "included"
-    }
-  ],
-  "restaurants": [
-    {
-      "name": "Fish Hut Restaurant",
-      "area": "Al Barsha",
-      "cuisine": "Seafood",
-      "price_level": "budget",
-      "estimated_cost_per_person_usd": 6.0,
-      "price_evidence": "no price in snippets",
-      "near_activity_number": 0,
-      "best_meal": "lunch",
-      "why_recommended": "Affordable seafood near the hotel, good for a quick lunch after shopping.",
-      "meal_cost_for_group_usd": 12.0,
-      "within_meal_target": true,
-      "near_activity": "near hotel",
-      "linked_to_plan": true
-    },
-    {
-      "name": "Al Baik",
-      "area": "Deira",
-      "cuisine": "Fast Food (Chicken)",
-      "price_level": "budget",
-      "estimated_cost_per_person_usd": 5.0,
-      "price_evidence": "no price in snippets",
-      "near_activity_number": 6,
-      "best_meal": "dinner",
-      "why_recommended": "Cheap chicken meals close to the Spice Souk, fits the $6 target.",
-      "meal_cost_for_group_usd": 10.0,
-      "within_meal_target": true,
-      "near_activity": "Al Ras Street Food & Spice Souk Exploration",
-      "linked_to_plan": true
-    },
-    {
-      "name": "Texas Chicken",
-      "area": "Zabeel Park",
-      "cuisine": "American Fried Chicken",
-      "price_level": "budget",
-      "estimated_cost_per_person_usd": 6.0,
-      "price_evidence": "no price in snippets",
-      "near_activity_number": 3,
-      "best_meal": "lunch",
-      "why_recommended": "Budget-friendly fried chicken near Dubai Frame, convenient for a midday break.",
-      "meal_cost_for_group_usd": 12.0,
-      "within_meal_target": true,
-      "near_activity": "Dubai Frame",
-      "linked_to_plan": true
-    },
-    {
-      "name": "Chef Lanka",
-      "area": "Karama",
-      "cuisine": "Sri Lankan",
-      "price_level": "budget",
-      "estimated_cost_per_person_usd": 6.0,
-      "price_evidence": "no price in snippets",
-      "near_activity_number": 0,
-      "best_meal": "dinner",
-      "why_recommended": "Authentic Sri Lankan dishes at a low price, near the hotel area.",
-      "meal_cost_for_group_usd": 12.0,
-      "within_meal_target": true,
-      "near_activity": "near hotel",
-      "linked_to_plan": true
-    },
-    {
-      "name": "Shake Shack – The Beach JBR",
-      "area": "Jumeirah Beach Residence (JBR)",
-      "cuisine": "American Fast Casual",
-      "price_level": "mid-range",
-      "estimated_cost_per_person_usd": 15.0,
-      "price_evidence": "AED 50–80 per person snippet (≈ $15–$22) middle used",
-      "near_activity_number": 2,
-      "best_meal": "dinner",
-      "why_recommended": "Sea‑view location at JBR, good after beach time, though above budget.",
-      "meal_cost_for_group_usd": 30.0,
-      "within_meal_target": false,
-      "near_activity": "Jumeirah Public Beach",
-      "linked_to_plan": true
-    },
-    {
-      "name": "Beyond Al Ustad Special Kabab",
-      "area": "Bur Dubai",
-      "cuisine": "Iranian/Persian Grill",
-      "price_level": "budget",
-      "estimated_cost_per_person_usd": 8.0,
-      "price_evidence": "AED 20-40 (5-11 USD) per person snippet, middle $8 used",
-      "near_activity_number": 5,
-      "best_meal": "lunch",
-      "why_recommended": "Traditional kebabs near Al Fahidi walk, modest price.",
-      "meal_cost_for_group_usd": 16.0,
-      "within_meal_target": false,
-      "near_activity": "Dubai Creek & Al Fahidi Historical Neighborhood Walk",
-      "linked_to_plan": true
-    },
-    {
-      "name": "Side Kick Restaurant",
-      "area": "Zabeel Park",
-      "cuisine": "American/Indian Fusion",
-      "price_level": "budget",
-      "estimated_cost_per_person_usd": 7.0,
-      "price_evidence": "no price in snippets",
-      "near_activity_number": 3,
-      "best_meal": "breakfast",
-      "why_recommended": "Casual spot near Dubai Frame offering varied breakfast options.",
-      "meal_cost_for_group_usd": 14.0,
-      "within_meal_target": false,
-      "near_activity": "Dubai Frame",
-      "linked_to_plan": true
-    }
-  ],
+  "hotel_options": [],
+  "selected_hotel": {},
+  "activities": [],
+  "restaurants": [],
   "itinerary": {
-    "hotel": "Grand Excelsior Hotel Deira",
+    "hotel": "unknown",
     "days": [
       {
         "day_number": 1,
         "day_type": "arrival",
         "capacity_hours": 3,
-        "area_focus": "Al Barsha",
-        "activities": [
-          {
-            "name": "Mall of the Emirates Shopping (window)",
-            "location": "Al Barsha",
-            "duration_hours": 3.0,
-            "best_time_to_visit": "Afternoon",
-            "total_cost_usd": 0.0
-          }
-        ],
-        "activity_hours": 3.0,
+        "area_focus": "hotel vicinity",
+        "activities": [],
+        "activity_hours": 0,
         "transit_hours": 0.0,
         "meals": [
           {
             "meal": "dinner",
-            "restaurant": "Chef Lanka",
-            "area": "Karama",
-            "cost_per_person_usd": 6.0,
-            "cost_for_group_usd": 12.0,
-            "match": "near hotel"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           }
         ],
-        "reasoning": "Arrival day kept light with a 3‑hour Mall of the Emirates window‑shopping visit right near the hotel, fitting the 3 h limit."
+        "reasoning": "No scheduled activities; keep the arrival day light with optional short rest near the hotel."
       },
       {
         "day_number": 2,
         "day_type": "full",
         "capacity_hours": 6,
-        "area_focus": "Zabeel Park & Downtown Dubai",
-        "activities": [
-          {
-            "name": "Dubai Frame",
-            "location": "Zabeel Park",
-            "duration_hours": 1.5,
-            "best_time_to_visit": "Morning",
-            "total_cost_usd": 26.0
-          },
-          {
-            "name": "Dubai Fountain & Burj Khalifa Lake Walk",
-            "location": "Downtown Dubai",
-            "duration_hours": 2.0,
-            "best_time_to_visit": "Evening",
-            "total_cost_usd": 0.0
-          }
-        ],
-        "activity_hours": 3.5,
-        "transit_hours": 0.5,
+        "area_focus": "central Dubai",
+        "activities": [],
+        "activity_hours": 0,
+        "transit_hours": 0.0,
         "meals": [
           {
             "meal": "lunch",
-            "restaurant": "Texas Chicken",
-            "area": "Zabeel Park",
-            "cost_per_person_usd": 6.0,
-            "cost_for_group_usd": 12.0,
-            "match": "near today's activity"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           },
           {
             "meal": "dinner",
-            "restaurant": "Side Kick Restaurant",
-            "area": "Zabeel Park",
-            "cost_per_person_usd": 7.0,
-            "cost_for_group_usd": 14.0,
-            "match": "near today's activity"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           }
         ],
-        "reasoning": "Morning start at Dubai Frame (1.5 h) in Zabeel Park, then travel 0.5 h to Downtown for the evening Dubai Fountain & Burj Khalifa Lake Walk (2 h). Total 4 h stays within the 6 h limit."
+        "reasoning": "Full day available but no activities listed, so the day remains open for flexible exploration."
       },
       {
         "day_number": 3,
         "day_type": "full",
         "capacity_hours": 6,
-        "area_focus": "Jumeirah Beach Residence (JBR) area",
-        "activities": [
-          {
-            "name": "Jumeirah Public Beach",
-            "location": "Jumeirah Beach Residence (JBR) area",
-            "duration_hours": 3.0,
-            "best_time_to_visit": "Morning",
-            "total_cost_usd": 0.0
-          },
-          {
-            "name": "Al Ras Street Food & Spice Souk Exploration",
-            "location": "Deira, Al Ras",
-            "duration_hours": 2.0,
-            "best_time_to_visit": "Late morning",
-            "total_cost_usd": 0.0
-          }
-        ],
-        "activity_hours": 5.0,
-        "transit_hours": 0.5,
+        "area_focus": "central Dubai",
+        "activities": [],
+        "activity_hours": 0,
+        "transit_hours": 0.0,
         "meals": [
           {
             "meal": "lunch",
-            "restaurant": "Al Baik",
-            "area": "Deira",
-            "cost_per_person_usd": 5.0,
-            "cost_for_group_usd": 10.0,
-            "match": "near today's activity"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           },
           {
             "meal": "dinner",
-            "restaurant": "Shake Shack – The Beach JBR",
-            "area": "Jumeirah Beach Residence (JBR)",
-            "cost_per_person_usd": 15.0,
-            "cost_for_group_usd": 30.0,
-            "match": "near today's activity"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           }
         ],
-        "reasoning": "Adjusted by code to respect activity priorities and daily hour limits."
+        "reasoning": "Another full day with no predefined activities, allowing travelers to choose attractions as desired."
       },
       {
         "day_number": 4,
         "day_type": "full",
         "capacity_hours": 6,
-        "area_focus": "Sheikh Mohammed Bin Zayed Road",
-        "activities": [
-          {
-            "name": "Global Village",
-            "location": "Sheikh Mohammed Bin Zayed Road",
-            "duration_hours": 4.0,
-            "best_time_to_visit": "Evening",
-            "total_cost_usd": 18.0
-          }
-        ],
-        "activity_hours": 4.0,
+        "area_focus": "central Dubai",
+        "activities": [],
+        "activity_hours": 0,
         "transit_hours": 0.0,
         "meals": [
           {
             "meal": "lunch",
-            "restaurant": "Fish Hut Restaurant",
-            "area": "Al Barsha",
-            "cost_per_person_usd": 6.0,
-            "cost_for_group_usd": 12.0,
-            "match": "near hotel"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           },
           {
             "meal": "dinner",
-            "restaurant": "Beyond Al Ustad Special Kabab",
-            "area": "Bur Dubai",
-            "cost_per_person_usd": 8.0,
-            "cost_for_group_usd": 16.0,
-            "match": "elsewhere in the plan"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           }
         ],
-        "reasoning": "Evening at Global Village (4 h) offers cultural entertainment in one location, comfortably within the 6 h daily limit."
+        "reasoning": "Final full day remains open for any remaining sights or leisure."
       },
       {
         "day_number": 5,
         "day_type": "departure",
         "capacity_hours": 2,
-        "area_focus": "Al Fahidi, Bur Dubai",
-        "activities": [
-          {
-            "name": "Dubai Creek & Al Fahidi Historical Neighborhood Walk",
-            "location": "Al Fahidi, Bur Dubai",
-            "duration_hours": 2.0,
-            "best_time_to_visit": "Morning",
-            "total_cost_usd": 0.0
-          }
-        ],
-        "activity_hours": 2.0,
+        "area_focus": "hotel vicinity",
+        "activities": [],
+        "activity_hours": 0,
         "transit_hours": 0.0,
         "meals": [
           {
             "meal": "lunch",
-            "restaurant": "Beyond Al Ustad Special Kabab",
-            "area": "Bur Dubai",
-            "cost_per_person_usd": 8.0,
-            "cost_for_group_usd": 16.0,
-            "match": "near today's activity (repeat visit)"
+            "restaurant": null,
+            "area": null,
+            "cost_per_person_usd": 0,
+            "cost_for_group_usd": 0,
+            "match": "no restaurant available"
           }
         ],
-        "reasoning": "Departure day ends with a short 2‑hour Dubai Creek & Al Fahidi Historical Neighborhood walk, close to the hotel and fitting the 2 h limit."
+        "reasoning": "Departure day kept light with no activities, focusing on check‑out and travel to the airport."
       }
     ],
     "unscheduled_activities": [],
-    "planned_activity_hours": 17.5,
-    "transit_hours": 1.0,
+    "planned_activity_hours": 0,
+    "transit_hours": 0.0,
     "capacity_hours": 23,
-    "included_activity_hours": 17.5,
-    "planned_by": "llm_repaired_by_code",
+    "included_activity_hours": 0,
+    "planned_by": "llm",
     "breakfast_note": "Breakfast is not planned; check whether the hotel rate includes it."
   },
   "budget_analysis": {
-    "status": "within_budget",
+    "status": "incomplete",
     "needs_revision": false,
-    "budget_usd": 1400.0,
-    "total_usd": 1366.0,
-    "over_by_usd": 0.0,
-    "remaining_usd": 34.0,
-    "total_is_partial": false,
+    "budget_usd": 2000.0,
+    "total_usd": 1100.0,
+    "over_by_usd": null,
+    "remaining_usd": null,
+    "total_is_partial": true,
     "breakdown": [
       {
         "category": "flights",
@@ -598,39 +181,48 @@
       },
       {
         "category": "hotel",
-        "actual_usd": 100.0,
-        "cap_usd": 140.0,
+        "actual_usd": null,
+        "cap_usd": 450.0,
         "over_cap_usd": 0.0
       },
       {
         "category": "activities",
-        "actual_usd": 44.0,
-        "cap_usd": 80.0,
+        "actual_usd": null,
+        "cap_usd": 200.0,
         "over_cap_usd": 0.0
       },
       {
         "category": "food",
-        "actual_usd": 122.0,
-        "cap_usd": 100.0,
-        "over_cap_usd": 22.0
+        "actual_usd": null,
+        "cap_usd": 250.0,
+        "over_cap_usd": 0.0
       },
       {
         "category": "local_transport",
         "actual_usd": 100.0,
-        "cap_usd": 40.0,
-        "over_cap_usd": 60.0
+        "cap_usd": 100.0,
+        "over_cap_usd": 0.0
       }
     ],
-    "missing_costs": [],
+    "missing_costs": [
+      "hotel",
+      "activities",
+      "food"
+    ],
     "warnings": [],
-    "revision_count": 2,
+    "revision_count": 0,
     "max_revisions": 2,
     "local_transport_basis": "hardcoded estimate: $10 per person per day"
   },
-  "revision_count": 2,
-  "revision_notes": "hotel costs $440, over its $160 cap by $280: choose cheaper hotel options.",
-  "category_cuts": {
-    "hotel": 2
-  },
-  "errors": []
+  "revision_count": 0,
+  "revision_notes": "",
+  "category_cuts": {},
+  "errors": [
+    "destination_researcher: LLM step failed: failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m3703g7tenqtm52s85mt7wch` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198963, Requested 2454. Please try again in 10m12.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "hotel_agent: LLM step failed: failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m3703g7tenqtm52s85mt7wch` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198810, Requested 1946. Please try again in 5m26.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "activities_agent: LLM step failed: failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m3703g7tenqtm52s85mt7wch` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198647, Requested 4483. Please try again in 22m32.16s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "restaurant_agent: LLM step failed: failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m3703g7tenqtm52s85mt7wch` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198502, Requested 1669. Please try again in 1m13.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "itinerary_agent: no restaurants available, meals left empty",
+    "budget_agent: missing costs for hotel, activities, food, budget check is incomplete"
+  ]
 }
