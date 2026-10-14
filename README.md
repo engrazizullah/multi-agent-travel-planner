@@ -38,7 +38,7 @@ The revision loop goes back to the hotel agent, not the start. Flights are a fix
 ### The agents
 
 | Agent | Uses LLM | What it does |
-|---|---|---|
+| --- | --- | --- |
 | `flight_agent` | No | Calls the flights tool, validates the result, marks flights as a fixed cost |
 | `destination_researcher` | Yes | 4 web searches (areas, transport, best time, visa rules for the origin country) → structured research |
 | `hotel_agent` | Yes | Searches hotels near the recommended areas. Code checks every price against the nightly cap and falls back to the cheapest valid option |
@@ -88,7 +88,7 @@ Each agent returns only the fields it changes, and LangGraph merges them into th
 ## Assignment requirements checklist
 
 | Requirement | How it's met | Where |
-|---|---|---|
+| --- | --- | --- |
 | 6+ agents | 7 agents (5 LLM agents, 2 code-only agents) | `agents/` |
 | Shared state | `TravelState` with an error reducer | `state.py` |
 | Conditional routing | `route_after_budget` → `revise` or `done` | `graph.py` |
@@ -99,7 +99,7 @@ Each agent returns only the fields it changes, and LangGraph merges them into th
 | Error handling | Errors collected in state. Agents never crash the graph; fallbacks exist where possible | all agents, `llm.py` |
 | Free APIs, hardcode if none | Groq and Tavily free tiers. No free flight API, so flights are hardcoded and labelled `"source": "hardcoded"` | `tools/flights_tool.py` |
 | README | This file | |
-| Example input/output | 3 saved runs | `examples/` |
+| Example input/output | A saved run with 2 budget revisions | `examples/` |
 
 ---
 
@@ -118,7 +118,7 @@ cp .env.example .env
 
 Then fill in `.env`:
 
-```
+```dotenv
 GROQ_API_KEY=your_groq_key
 TAVILY_API_KEY=your_tavily_key
 GROQ_MODEL=openai/gpt-oss-120b
@@ -129,12 +129,12 @@ Both keys are available on free tiers: [Groq console](https://console.groq.com) 
 ## Usage
 
 ```bash
-python main.py                                   # $2,000 example, saved as examples/dubai_*.json
-python main.py --budget 1500 --name dubai_tight  # tighter budget
+python main.py                 # $2,000 example
+python main.py --budget 1400   # tighter budget, usually triggers a revision
 python main.py --help
 ```
 
-The terminal shows each agent as it finishes, so you can watch the revision loop, then a trip summary, a budget table, and all errors and warnings. The full input and output are saved as JSON in `examples/`.
+The terminal shows each agent as it finishes, so you can watch the revision loop, then a trip summary, a budget table, and all errors and warnings. The full input and output are saved to `examples/dubai_input.json` and `examples/dubai_output.json`, overwriting the previous run.
 
 A run makes about 15 web searches and 5 LLM calls per pass. On Groq's free tier, it may pause for 30 s when it hits the rate limit.
 
@@ -147,7 +147,7 @@ python -m pytest tests/ -v
 There are 33 tests. They make no API calls: LLM-based agents are replaced with fakes using `monkeypatch`, so the tests are free, fast and deterministic.
 
 | File | Covers |
-|---|---|
+| --- | --- |
 | `test_planning_rules.py` | Day limits, meal counts, budget shares, targeted cuts, floors |
 | `test_budget_agent.py` | All 4 outcomes, targeted cuts, failed-agent detection, no mutation of input state |
 | `test_itinerary_agent.py` | LLM failure fallback, repairing plans that break limits, duplicate numbers, priority swap, consistent text, meals by day type, cheaper restaurants |
@@ -158,11 +158,11 @@ There are 33 tests. They make no API calls: LLM-based agents are replaced with f
 
 ## Example runs
 
-| Example | Budget | Result | Revisions | Notes |
-|---|---|---|---|---|
-| `examples/dubai_*.json` | $2,000 | $1,660.70, within budget | 0 | The itinerary LLM failed this run; the code fallback produced the plan |
-| `examples/dubai_tight_*.json` | $1,500 | $1,426.12, within budget | 0 | |
-| `examples/dubai_revision_*.json` | $1,400 | $1,366, within budget | 2 | The hotel was over its cap; only the hotel share was cut, twice |
+| Budget | Result | Revisions | Notes |
+| --- | --- | --- | --- |
+| $2,000 | $1,660.70, within budget | 0 | The itinerary LLM failed this run; the code fallback produced the plan |
+| $1,500 | $1,426.12, within budget | 0 | |
+| $1,400 | $1,366, within budget | 2 | The hotel was over its cap; only the hotel share was cut, twice. **Saved in `examples/`** |
 
 **Results differ between runs.** Search results and LLM answers change, so the same input can need a revision on one run and not on another. That's why the revision loop is proven with deterministic tests (`test_graph.py`), not with live runs.
 
@@ -195,7 +195,7 @@ These are things I found by evaluating the system's own output, not just by buil
 
 ## Project structure
 
-```
+```text
 travel_planner/
 ├── main.py                  # entry point: runs the graph, prints a summary, saves examples
 ├── graph.py                 # LangGraph nodes, edges and the revision router
@@ -208,7 +208,7 @@ travel_planner/
 │   ├── flights_tool.py      # hardcoded flight prices
 │   └── web_search_tool.py   # Tavily → ddgs fallback, ad filter, snippet trimming
 ├── tests/                   # 33 pytest tests, no API calls
-└── examples/                # saved input/output JSON from real runs
+└── examples/                # saved input/output JSON from the $1,400 run
 ```
 
 ## Lessons learned
