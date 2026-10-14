@@ -1,0 +1,27 @@
+{
+  "origin": "Pakistan",
+  "destination": "Dubai",
+  "travel_dates": "December 10-14",
+  "duration": 5,
+  "travelers": 2,
+  "budget": 1400.0,
+  "interests": [
+    "food",
+    "shopping",
+    "beaches",
+    "sightseeing"
+  ],
+  "hotel_preference": "4-star",
+  "destination_research": {},
+  "flight_options": {},
+  "hotel_options": [],
+  "selected_hotel": {},
+  "activities": [],
+  "restaurants": [],
+  "itinerary": {},
+  "budget_analysis": {},
+  "revision_count": 0,
+  "revision_notes": "",
+  "category_cuts": {},
+  "errors": []
+}
